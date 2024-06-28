@@ -1,0 +1,145 @@
+<!-- Name: Nasser Ali, Assignment: JS Midterm Sprint, Date: June 28, 2024 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <!-- Fetches the 'Playfair Display' font from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Our Location</title>
+  </head>
+
+  <body>
+    <!-- Background image sourced from Unsplash -->
+    <img
+      src="../images/wallpapers/our_location_background.jpeg"
+      class="background-image"
+    />
+
+    <nav>
+      <div id="nav-links">
+        <a href="../index.html">Home</a>
+        <a href="./the_menu.html">The Menu</a>
+        <a href="./order_now.html">Order Now</a>
+        <a href="./our_history.html">Our History</a>
+        <a href="./our_location.html">Our Location</a>
+      </div>
+    </nav>
+
+    <main>
+      <div class="the-local-logo">
+        <img src="../images/logos/the_local_logo.svg" alt="" />
+      </div>
+
+      <div class="separator-line"></div>
+
+      <h1 id="our-location-header">Our Location</h1>
+      <div id="our-location-content">
+        <div id="our-location-info">
+          <div class="our-location-subheading">
+            <h2>Find Us</h2>
+          </div>
+
+          <h3>Address</h3>
+          <p>37 Hidden Valley Street</p>
+          <h3>Phone Number</h3>
+          <p>(709) 721-8647</p>
+          <h3>Email</h3>
+          <p>inquiries@thelocal.ca</p>
+        </div>
+
+        <div class="separator-line-vertical"></div>
+
+        <div id="our-location-hours">
+          <div class="our-location-subheading">
+            <h2>Our Hours</h2>
+          </div>
+
+          <h3>Tuesday - Friday</h3>
+          <p>10am - 10pm</p>
+          <h3>Saturday - Sunday</h3>
+          <p>9am - 12am</p>
+          <h3>Monday</h3>
+          <p>Closed</p>
+        </div>
+      </div>
+
+      <div class="separator-line"></div>
+
+      <section id="make-a-reservation-section">
+        <h2>Make a Reservation</h2>
+
+        <form
+          id="reservation-form"
+          action="../pages/reservation.html"
+          method="GET"
+        >
+          <!-- <label for="name">Name:</label> -->
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Name"
+            required
+          />
+
+          <!-- <label for="phone-number">Phone:</label> -->
+          <input
+            type="tel"
+            id="phone-number"
+            name="phone sss"
+            placeholder="Phone Number"
+            required
+          />
+
+          <!-- <label for="email">Email:</label> -->
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            required
+          />
+
+          <!-- <label for="date">Date:</label> -->
+          <input
+            type="date"
+            id="date"
+            name="date"
+            placeholder="Date"
+            required
+          />
+
+          <!-- <label for="time">Time:</label> -->
+          <input type="time" id="time" name="time" required />
+
+          <!-- <label for="guests">Number of Guests:</label> -->
+          <input
+            type="number"
+            id="guests"
+            name="guests"
+            placeholder="Number of Guests"
+            required
+          />
+
+          <!-- <label for="special-requests">Special Requests:</label> -->
+          <!-- <textarea
+            id="special-requests"
+            name="special-requests"
+            rows="10%"
+            cols="50"
+            placeholder="Special Requests"
+          ></textarea> -->
+
+          <button type="submit">Confirm Reservation</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

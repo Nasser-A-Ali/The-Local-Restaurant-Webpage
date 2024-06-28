@@ -1,0 +1,86 @@
+<!-- Name: Nasser Ali, Assignment: JS Midterm Sprint, Date: June 28, 2024 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <!-- Fetches the 'Playfair Display' font from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Order Now</title>
+  </head>
+
+  <body>
+    <!-- Background image sourced from Unsplash -->
+    <img
+      src="../images/wallpapers/order_background.jpg"
+      class="background-image"
+    />
+
+    <nav>
+      <div id="nav-links">
+        <a href="../index.html">Home</a>
+        <a href="./the_menu.html">The Menu</a>
+        <a href="./order_now.html">Order Now</a>
+        <a href="./our_history.html">Our History</a>
+        <a href="./our_location.html">Our Location</a>
+      </div>
+    </nav>
+
+    <main>
+      <div class="the-local-logo">
+        <img src="../images/logos/the_local_logo.svg" alt="" />
+      </div>
+
+      <div class="separator-line"></div>
+
+      <div id="order-form-display">
+        <form id="order-form">
+          <!-- Section of the form for indicating quantity of menu items to be ordered (loaded on 'order.js' run) -->
+          <div id="order-form-container"></div>
+
+          <!-- Section of the form for inputting personal information -->
+          <section id="personal-information-section">
+            <div class="order-categories-bar">
+              <h2>Personal Information</h2>
+            </div>
+
+            <div id="order-now-text">
+              <p>
+                To complete your order, please fill out the form below. Once we
+                receive your order, we will contact you to confirm the details
+                and provide you with an estimated pick-up time.
+              </p>
+            </div>
+
+            <div id="order-form-personal-info">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required />
+
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+
+              <label for="phone">Phone:</label>
+              <input type="tel" id="phone" name="phone" required />
+
+              <button type="submit" id="submit-order-button">
+                Submit Order
+              </button>
+            </div>
+          </section>
+        </form>
+      </div>
+
+      <!-- Placeholder div for displaying the order summary once form is submitted -->
+      <div id="order-summary"></div>
+    </main>
+
+    <!-- Fetches the 'order.js' script on load -->
+    <script src="../scripts/order.js"></script>
+  </body>
+</html>

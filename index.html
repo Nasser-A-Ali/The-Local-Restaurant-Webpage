@@ -1,0 +1,60 @@
+<!-- Name: Nasser Ali, Assignment: JS Midterm Sprint, Date: June 28, 2024 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <!-- Fetches the 'Playfair Display' font from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>The Local | juicery + kitchen</title>
+  </head>
+
+  <body>
+    <!-- Background video sourced from Unsplash -->
+    <video autoplay muted loop id="background-video">
+      <source
+        src="./images/wallpapers/home_video_background.mp4"
+        type="video/mp4"
+      />
+    </video>
+
+    <nav>
+      <div id="nav-links">
+        <a href="./index.html">Home</a>
+        <a href="./pages/the_menu.html">The Menu</a>
+        <a href="./pages/order_now.html">Order Now</a>
+        <a href="./pages/our_history.html">Our History</a>
+        <a href="./pages/our_location.html">Our Location</a>
+      </div>
+    </nav>
+
+    <main>
+      <div id="home-page-content">
+        <div class="the-local-logo">
+          <img src="../images/logos/the_local_logo.svg" alt="" />
+        </div>
+
+        <button
+          onclick="window.location.href='./pages/order_now.html'"
+          id="order-now-button"
+        >
+          Order Now
+        </button>
+
+        <div id="home-page-text">
+          <p>
+            Celebrating 70 years of culinary excellence and community spirit, we
+            continue to serve with passion and pride, creating memorable dining
+            experiences every day.
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

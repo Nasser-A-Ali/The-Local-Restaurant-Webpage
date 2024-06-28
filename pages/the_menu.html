@@ -1,0 +1,76 @@
+<!-- Name: Nasser Ali, Assignment: JS Midterm Sprint, Date: June 28, 2024 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <!-- Fetches the 'Playfair Display' font from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>The Menu</title>
+  </head>
+
+  <body>
+    <!-- Background image sourced from Unsplash -->
+    <img
+      src="../images/wallpapers/menu_backgroud.jpg"
+      class="background-image"
+    />
+
+    <nav id="white-nav-bar">
+      <div id="nav-links">
+        <a href="../index.html">Home</a>
+        <a href="./the_menu.html">The Menu</a>
+        <a href="./order_now.html">Order Now</a>
+        <a href="./our_history.html">Our History</a>
+        <a href="./our_location.html">Our Location</a>
+      </div>
+    </nav>
+
+    <main>
+      <div class="the-local-logo">
+        <img src="../images/logos/the_local_logo_dark.svg" alt="" />
+      </div>
+
+      <div class="menu-categories-bar">
+        <a href="#" onclick="getMenu('Appetizers')" id="appetizers_anchor"
+          >Appetizers</a
+        >
+
+        <a
+          href="#"
+          onclick="getMenu('Soups_and_Salads')"
+          id="soups_and_salads_anchor"
+          >Soups & Salads</a
+        >
+        <a
+          href="#"
+          onclick="getMenu('Sandwiches_and_Wraps')"
+          id="sandwiches_and_wraps_anchor"
+          >Sandwiches & Wraps</a
+        >
+        <a href="#" onclick="getMenu('Desserts')" id="desserts_anchor"
+          >Desserts</a
+        >
+        <a href="#" onclick="getMenu('Beverages')" id="beverages_anchor"
+          >Beverages</a
+        >
+      </div>
+
+      <!-- Placeholder container for loading the menu items-->
+      <div id="menu-container">
+        <div id="menu-items-placeholder-text">
+          <p>Please choose a category from above to view our selection.</p>
+        </div>
+      </div>
+    </main>
+
+    <!-- Fetches the 'menu.js' script on load -->
+    <script src="../scripts/menu.js"></script>
+  </body>
+</html>

@@ -1,0 +1,136 @@
+{
+    "Appetizers": [
+        {
+            "name": "Bruschetta",
+            "description": "Toasted slices of rustic bread topped with a flavourful blend of diced tomatoes, fresh basil, garlic, and olive oil, finished with a drizzle of balsamic glaze.",
+            "price": 9,
+            "image": "../images/menu_items/bruschetta.jpg"
+        },
+        {
+            "name": "Artisan Cheese Plate",
+            "description": "A curated selection of premium cheeses, featuring a variety of textures and flavors paired with seasonal fruits, honeycomb, and artisanal crackers.",
+            "price": 13,
+            "image": "../images/menu_items/cheese_plate.jpg"
+        },
+        {
+            "name": "Calamari",
+            "description": "Tender squid rings lightly coated in seasoned flour, fried to a golden crispness, and served with a tangy marinara sauce infused with garlic, lemon zest, and herbs.",
+            "price": 18,
+            "image": "../images/menu_items/stuffed_mushrooms.jpg"
+        },
+        {
+            "name": "Stuffed Mushrooms",
+            "description": "Cremini mushroom caps filled with a savoury blend of breadcrumbs, Parmesan cheese, garlic, and fresh herbs, baked until golden and served piping hot.",
+            "price": 13,
+            "image": "../images/menu_items/calamari.jpg"
+        }
+    ],
+    
+    "Soups_and_Salads": [
+        {
+            "name": "Tomato Basil Soup",
+            "description": "A comforting blend of ripe tomatoes, fresh basil, and aromatic herbs, simmered to perfection for a rich and velvety texture.",
+            "price": 12,
+            "image": "../images/menu_items/tomato_basil_soup.jpg"
+        },
+        {
+            "name": "Caesar Salad",
+            "description": "Crisp romaine lettuce tossed with creamy Caesar dressing, topped with crunchy croutons, shredded Parmesan cheese, and a hint of zesty lemon.",
+            "price": 14,
+            "image": "../images/menu_items/caesar_salad.jpg"
+        },
+        {
+            "name": "Spinach and Strawberry Salad",
+            "description": "Fresh spinach with sweet strawberries, toasted almonds, goat cheese, and balsamic vinaigrette.",
+            "price": 16,
+            "image": "../images/menu_items/spinach_strawberry_salad.jpg"
+        },
+        {
+            "name": "Chicken Tortilla Soup",
+            "description": "Hearty broth with tender chicken, corn, black beans, tomatoes, and spices, garnished with crispy tortilla strips and fresh cilantro.",
+            "price": 14,
+            "image": "../images/menu_items/chicken_tortilla_soup.jpg"
+        }
+    ],
+
+    "Sandwiches_and_Wraps": [
+        {
+            "name": "Philly Cheesesteak Sandwich",
+            "description": "Sliced steak grilled with onions and peppers, smothered in melted cheese, served on a toasted hoagie roll.",
+            "price": 18,
+            "image": "../images/menu_items/philly_cheesesteak.jpg"
+        },
+        {
+            "name": "Reuben Sandwich",
+            "description": "Thinly sliced corned beef, Swiss cheese, sauerkraut, and Russian dressing grilled between slices of rye bread.",
+            "price": 16,
+            "image": "../images/menu_items/reuben_sandwich.jpg"
+        },
+        {
+            "name": "Turkey Avocado Wrap",
+            "description": "Sliced turkey breast, creamy avocado, lettuce, tomato, and a zesty aioli, wrapped in a soft tortilla.",
+            "price": 15,
+            "image": "../images/menu_items/turkey_avocado_wrap.jpg"
+        },
+        {
+            "name": "Veggie Panini",
+            "description": "Grilled sandwich with a medley of roasted vegetables, melted cheese, and pesto aioli on crispy ciabatta bread.",
+            "price": 14,
+            "image": "../images/menu_items/veggie_panini.jpg"
+        }
+    ],
+
+    "Desserts": [
+        {
+            "name": "New York Style Cheesecake",
+            "description": "Rich and creamy cheesecake with a velvety smooth texture, topped with a decadent layer of sour cream and served on a buttery graham cracker crust.",
+            "price": 10,
+            "image": "../images/menu_items/ny_style_cheesecake.jpg"
+        },
+        {
+            "name": "Crème Brûlée",
+            "description": "A classic French dessert featuring a smooth, creamy custard base infused with vanilla, topped with a caramelized sugar crust.",
+            "price": 12,
+            "image": "../images/menu_items/creme_brulee.jpg"
+        },
+        {
+            "name": "Tiramisu",
+            "description": "A traditional Italian dessert made with layers of espresso-soaked ladyfinger biscuits and mascarpone cheese, dusted with cocoa powder for a rich and indulgent treat.",
+            "price": 11,
+            "image": "../images/menu_items/tiramisu.jpg"
+        },
+        {
+            "name": "Chocolate Lava Cake",
+            "description": "Decadent chocolate cake with a gooey, molten chocolate center, served warm and topped with a dusting of powdered sugar.",
+            "price": 13,
+            "image": "../images/menu_items/chocolate_lava_cake.jpg"
+        }
+    ],
+
+    "Beverages": [
+        {
+            "name": "Hot Coffee",
+            "description": "Freshly brewed coffee served piping hot, available in regular or decaf options.",
+            "price": 5,
+            "image": "../images/menu_items/hot_coffee.jpg"
+        },
+        {
+            "name": "Hot Tea",
+            "description": "A selection of premium teas, served hot and brewed to perfection.",
+            "price": 4,
+            "image": "../images/menu_items/hot_tea.jpg"
+        },
+        {
+            "name": "Mango Smoothie",
+            "description": "A refreshing blend of ripe mangoes, creamy yoghurt, and a splash of orange juice, perfectly chilled and garnished with a slice of fresh mango.",
+            "price": 7,
+            "image": "../images/menu_items/mango_smoothie.jpg"
+        },
+        {
+            "name": "Fresh Orange Juice",
+            "description": "Our hand-squeezed orange juice offers a pure and refreshing taste of ripe oranges, perfect for a revitalizing and satisfying beverage.",
+            "price": 6,
+            "image": "../images/menu_items/orange_juice.jpg"
+        }
+    ]
+}
